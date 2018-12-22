@@ -33,7 +33,7 @@ function appendKitten(name){
 
 function prependKitten(name){
 kittens.unshift(name);
- return kittens.concat(name);
+ return concat.kittens
  
   
 }
