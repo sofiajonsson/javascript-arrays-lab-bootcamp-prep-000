@@ -32,7 +32,7 @@ function appendKitten(name){
 
 
 function prependKitten(name){
- kitten.concat();
- return kitten;
+ return kitten.concat(name);
+ 
   
 }
