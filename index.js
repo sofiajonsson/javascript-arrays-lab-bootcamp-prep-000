@@ -34,6 +34,7 @@ function appendKitten(name){
 function prependKitten(name){
 kittens.unshift(name);
  return concat.kittens
+ concat([name, kittens]).then(result => console.log(result))
  
   
 }
