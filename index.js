@@ -33,7 +33,7 @@ function appendKitten(name){
 
 function prependKitten(name){
  kittens.slice(name);
- return kittens;
+ return kittens.conc
  
   
 }
