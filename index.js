@@ -32,8 +32,8 @@ function appendKitten(name){
 
 
 function prependKitten(name){
-[name, ...kittens];
- return name.concat(kittens);
+return [name, ...kittens];
+// return name.concat(kittens);
   
 }
 
@@ -44,8 +44,8 @@ function removeLastKitten(){
 }
 
 function removeFirstKitten(){
-  kittens.slice(1);
-  return kittens.concat();
+  return kittens.slice(1);
+ // return kittens.concat();
 }
 
 
