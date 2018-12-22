@@ -43,6 +43,7 @@ function removeLastKitten(){
   return kittens.concat(name);
 }
 
+function removeFirstKitten()
 
 
 
